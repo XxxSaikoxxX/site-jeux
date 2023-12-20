@@ -1,0 +1,91 @@
+.bodyHome {
+    background-color: #262626; /* Fond sombre */
+    color: #f0f0f0; /* Texte clair pour contraste */
+    position: absolute;
+    width: 75%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Ombre pour profondeur */
+}
+
+.bodyHome>p {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    font-style: italic;
+    font-size: 15px;
+    color: #cccccc;
+}
+
+[id^=image] {
+    border: 5px solid #ff4500; /* Bordure orange pour dynamisme */
+    width: 180px;
+    height: 210px;
+    margin-top: 3rem;
+}
+
+.card>img {
+    height: 70vh;
+}
+
+[class^=FRM] {
+    border: 2px solid #ff4500;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #333333;
+    color: #ffffff;
+    width: 50%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: relative;
+    top: 50px;
+}
+
+input {
+    width: 400px;
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    position: absolute;
+    height: 10rem;
+    width: 25%;
+}
+
+#detImg {
+    margin-top: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50rem;
+    background-color: rgba(28, 28, 28, 0.85);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.detaille_img {
+    height: 80vh;
+    width: 50vh;
+}
+
